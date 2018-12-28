@@ -1,5 +1,5 @@
 # structuredKUos
-Structured OD - all is real object 
+Structured OS - all is real object 
 
 Proof of concept
 
