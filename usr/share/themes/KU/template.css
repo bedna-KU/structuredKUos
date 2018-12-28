@@ -1,0 +1,420 @@
+a:link {
+	color: #FFFFFF;
+	font-style: oblique;
+	font-weight: normal;
+	text-decoration: none;
+	border: 0;
+}
+
+a:visited {
+	color: #FFFFFF;
+	font-style: oblique;
+	font-weight: normal;
+	text-decoration: none;
+	border: 0;
+}
+
+a:hover {
+	color: #FFFF00;
+	font-style: oblique;
+	font-weight: normal;
+	border: 0;
+}
+
+a:active {
+	color: #FFFFFF;
+	font-style: oblique;
+	font-weight: normal;
+	text-decoration: none;
+	border: 0;
+}
+
+body, html{
+	color: #00FF00;
+	background-color: #000000;
+	/*background-image: url("ku-wall.png");*/
+	background-repeat: no-repeat;
+	background-position: center 200px;
+	font: 16px monospace;
+	border: 0px none;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	color: #88CC77;
+	font: 20px monospace;
+	font-weight: bold;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+h2 {
+	color: #88CC77;
+	font: 18px monospace;
+	font-weight: bold;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+code {
+	color: #AAAAAA;
+	background-color: #222222;
+	font: 16px monospace;
+	font-weight: normal;
+	white-space: pre;
+	display: inline-block;
+	margin: 0px 0px 0px 0px;
+	padding: 5px 10px 5px 10px;
+}
+
+strong {
+	color: #FF3333;
+}
+
+small {
+	color: #88CC77;
+	font: 14px monospace;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+textarea:focus {
+	width: 95%;
+	color: #FFFFFF;
+	background-color: #111111;
+	opacity: 0.9;
+	vertical-align: top;
+	border: 0px none;
+}
+
+textarea {
+	width: 95%;
+	color: #FFFFFF;
+	background-color: #009900;
+	opacity: 0.9;
+	vertical-align: top;
+	border: 0px none;
+}
+
+form {
+	margin: 10px 0px 0px 0px;
+	padding: 0px;
+}
+
+.image_thumbnail {
+	width: 200px;
+	max-width: 98%;
+}
+
+img {
+	max-width: 98%;
+}
+
+.input:focus {
+	color: #77EE55;
+	font: 16px monospace;
+	background-color: transparent;
+	width: 95%;
+	border: 0px none;
+}
+
+.input {
+	color: #FFFFFF;
+	font: 16px monospace;
+	background: #009900;
+	width: 95%;
+	margin: auto 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border: 0px none;
+}
+
+td {
+	font: 16px monospace;
+	padding: 0px 25px 0px 0px;
+	vertical-align: top;
+}
+
+.reset {
+	color: #FFFF00;
+	border: 0;
+	width: 100%;
+	border-top: 0px solid rgba(0, 0, 0, 0);
+	border-bottom: 0px solid rgba(0, 0, 0, 0);
+}
+
+.error {
+	color: #FF0033;
+}
+
+.info {
+	color: #7799FF;
+}
+
+.black {
+	color: #000000;
+}
+
+.grey {
+	color: #999999;
+}
+
+.white {
+	color: #FFFFFF;
+}
+
+.yellow {
+	color: #FFFF00;
+}
+
+.orange {
+	color: #FF9900;
+}
+
+.red {
+	color: #FF3333;
+}
+
+.magenta {
+	color: #FF00FF;
+}
+
+.blue {
+	color: #3377FF;
+}
+
+.cyan {
+	color: #00FFFF;
+}
+
+.green {
+	color: #00FF00;
+}
+
+.loginname {
+	color: #FF00FF;
+}
+
+.at {
+	color: #FFFFFF;
+}
+
+.servername {
+	color: #00FFFF;
+}
+
+.input_hidden {
+	visibility: hidden;
+	height: 0px;
+	width: 0px;
+}
+
+.input_normal {
+	color: #77EE55;
+	background-color: #333333;
+	font: 16px monospace;
+	margin: 10px 10px 0px 0px;
+	padding: 2px 2px 2px 2px;
+	border: 1px solid #00FF00;
+}
+
+.input_ok {
+	color: #000000;
+	background-color: #FFFFFF;
+	width: 3%;
+	border: 0px none;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+#ku_win {
+	overflow: auto;
+	width: 100%;
+	float: left;
+	margin: 0px 0px 30px 0px;
+}
+
+.clipboard {
+	color: #CCCC00;
+	font: 16px monospace;
+	font-weight: bold;
+	white-space: pre-wrap;
+	margin: 0px 0px 5px 0px;
+	padding: 0px 0% 0px 0px;
+}
+
+.line {
+	white-space: pre-wrap;
+	color: #77EE55;
+	font: 16px monospace;
+	margin: 10px 0px 5px 20px;
+}
+
+#output {
+	font: 16px monospace;
+	white-space: pre-wrap;
+	color: #77EE55;
+	width: 90%;
+	margin: 10px 0px 0px 20px;
+	padding: 0px 0px 0px 0px;
+	border: 0;
+	border-style: solid;
+	border-color: #777799;
+}
+
+.cmd {
+	white-space: pre-wrap;
+	color: #77EE55;
+	font: 16px monospace;
+	width: 99%;
+	padding: 0px 0px 0px 0px;
+}
+
+#autocomplete  {
+	color: #77EE55;
+	font: 16px monospace;
+	display: block;
+	white-space: pre-wrap;
+	margin: 0px 0px 0px 20px;
+}
+
+.perex {
+	width: 40%;
+	color: #00AA00;
+	font: 15px monospace;
+	font-weight: bold;
+	margin: 4px 0px 10px 0px;
+	padding: 5px;
+	border-width: 1px 1px 1px 1px;
+	border-style: dashed;border-color: #006600;
+}
+
+.labels {
+	color: #00AA00;
+	font: 14px monospace;
+	font-weight: bold;
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+	border-width: 0px 0px 1px 0px;
+	border-style: dashed;border-color: #006600;
+}
+
+.preview_box {
+	white-space: pre-wrap;
+	background-color: #333333;
+	font: 16px monospace;
+	width: 95%;
+	height: 160px;
+	overflow: auto;
+	padding: 10px 0px 10px 10px;
+	margin: 0px 0px 10px 0px;
+	border-width: 0px 0px 1px 0px;
+	border-style: solid;
+	border-color: #00FF00;
+}
+
+#root_mail {
+	color: #FF7777;
+	background-color: #222222;
+	font: 16px monospace;
+	white-space: pre-wrap;
+	overflow: auto;
+	padding: 6px 0px 6px 10px;
+	border-width: 0px 0px 1px 0px;
+	border-style: solid;
+	border-color: #00FF00;
+}
+
+#root_mail:empty {
+	color: #FF7777;
+	background-color: #222222;
+	padding: 0px 0px 0px 0px;
+	border: 0px solid #00FF00;
+}
+
+#mail {
+	color: #FFFFFF;
+	background-color: #000000;
+	font: 16px monospace;
+	white-space: pre-wrap;
+	max-height: 79px;
+	overflow: auto;
+	padding: 6px 0px 6px 10px;
+	border-width: 0px 0px 1px 0px;
+	border-style: solid;
+	border-color: #00FF00;
+}
+
+#chat {
+    white-space: pre-wrap;
+	background-color: #002222;
+	font: 16px monospace;
+	height: 80px;
+	overflow: auto;
+	padding: 10px 0px 10px 10px;
+	border-width: 0px 0px 1px 0px;
+	border-style: solid;
+	border-color: #00FF00;
+}
+
+.lshref {
+	text-align: right;
+	background-color: #000000;
+	margin: -10px 4% 0 93%;
+	padding: 0px 8px 0px 0px;
+}
+
+.comment {
+	width: 400px;
+	margin: 0px 0px 10px 0px;
+	padding: 5px 0px 5px 0px;
+	border-width: 0px 0px 1px 0px;
+	border-style: dashed;
+	border-color: #00AA00;
+}
+
+.eshop {
+	margin: -10px 0px -10px 92.1%;
+}
+
+.dir {
+	color: #99CCFF;
+}
+
+.dir:hover {
+	color: #FF9900;
+}
+
+.ls {
+	font: 16px monospace;
+	vertical-align: top;
+	padding: 0px 10px 0px 0px;
+}
+
+.ls_img {
+	width: 200px;
+}
+
+.main_table {
+	white-space: pre-wrap;
+    border-collapse: collapse;
+    background: #000000;
+}
+
+.main_tr {
+	padding: 0px 0px 0px 0px;
+    border: 0px solid green;
+}
+
+.main_td {
+	padding: 0px 10px 10px 10px;
+    border: 1px solid #117700;
+    vertical-align: top;
+}
+
+.cote {
+	width: 23%;
+    border: 1px solid green;
+    padding: 1%;
+    float: left;
+}
